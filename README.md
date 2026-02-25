@@ -1,121 +1,33 @@
-# 🧮 Advanced React Calculator
+# 🎬 Movie Explorer App
 
-A modern and feature-rich calculator web application built using React JS.  
-This project includes scientific functions, keyboard support, history tracking, and a modern glassmorphism UI.
+A modern React-based Movie Explorer web application that allows users to explore movies, view details, and discover trending content with a clean and responsive UI.
 
----
-
-## 🚀 Features
-
-- Basic arithmetic operations (+, −, ×, ÷)
-- Percentage (%)
-- Square (x²)
-- Square Root (√)
-- Keyboard support
-- Calculation history panel
-- Modern glass UI design
-- Fully responsive layout
-- Error handling for invalid inputs
+Built using **React + React Router + OMDB API**.
 
 ---
 
-## 🛠 Tech Stack
+## 🚀 Live Features
 
-- React JS (useState, useEffect)
+✅ Browse Movies  
+✅ Movie Details Page  
+✅ Dynamic Routing  
+✅ API Integration (OMDB API)  
+✅ Modern Hero Section UI  
+✅ Contact Form with React Router Actions  
+✅ Responsive Design  
+✅ Error Handling Page
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- React Router DOM
 - JavaScript (ES6+)
-- CSS3 (Flexbox, Grid, Glassmorphism design)
-
----
-
-## ⚙️ Installation and Setup
-
-### 1️⃣ Create React App
-
-```bash
-npx create-react-app calculator
-```
-
-### 2️⃣ Navigate to Project Folder
-
-```bash
-cd calculator
-```
-
-### 3️⃣ Install Dependencies
-
-```bash
-npm install
-```
-
-### 4️⃣ Start Development Server
-
-```bash
-npm start
-```
-
-Application will run at:
-
-```
-http://localhost:3000
-```
+- CSS3
+- Vite
+- OMDB API
 
 ---
 
 ## 📂 Project Structure
-
-```
-calculator/
-│
-├── public/
-├── src/
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-│
-├── package.json
-└── README.md
-```
-
----
-
-## ⌨️ Keyboard Controls
-
-| Key        | Action               |
-|------------|----------------------|
-| 0–9        | Numbers              |
-| + - * /    | Operators            |
-| Enter      | Calculate result     |
-| Backspace  | Delete last character|
-| .          | Decimal point        |
-
----
-
-## 🧠 What I Learned
-
-- Managing state using React useState hook
-- Handling keyboard events using useEffect
-- Creating reusable UI components
-- Using CSS Grid and Flexbox
-- Implementing calculation history
-- Improving UI with modern design techniques
-
----
-
-## 🔮 Future Improvements
-
-- Add full scientific calculator (sin, cos, tan, log)
-- Add dark/light theme toggle
-- Store history in local storage
-- Deploy to Vercel or Netlify
-- Break into smaller reusable components
-
----
-
-## 👨‍💻 Author
-
-**Rishant Maurya**  
-Aspiring Full Stack Developer 🚀
-
----
-
-⭐ If you like this project, feel free to give it a star!

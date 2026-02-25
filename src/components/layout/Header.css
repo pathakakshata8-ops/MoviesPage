@@ -1,0 +1,123 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar wrapper */
+.section-navbar {
+  width: 100%;
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Top strip */
+.top_txt {
+  background-color: #222;
+  padding: 8px 0;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head_txt p {
+  font-size: 14px;
+}
+
+.sing_in_up a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.sing_in_up a:hover {
+  color: #00bcd4;
+}
+
+/* Main navbar */
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.section-navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.navbar-brand p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00bcd4;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+}
+
+/* Navigation links */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+/* Hover effect */
+.nav-item a:hover {
+  color: #00bcd4;
+}
+
+/* Underline animation */
+.nav-item a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #00bcd4;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s ease;
+}
+
+.nav-item a:hover::after {
+  width: 100%;
+}
+
+/* ✅ ACTIVE LINK STYLE */
+.nav-item a.active {
+  color: #00bcd4;
+}
+
+.nav-item a.active::after {
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-navbar .container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

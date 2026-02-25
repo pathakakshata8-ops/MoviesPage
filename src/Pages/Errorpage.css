@@ -1,0 +1,51 @@
+.error-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+#error-text {
+  max-width: 600px;
+}
+
+#error-text img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.p-a {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #00bcd4;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0097a7;
+}
+
+.btn-home {
+  background-color: #ff5252;
+}
+
+.btn-home:hover {
+  background-color: #e53935;
+}
