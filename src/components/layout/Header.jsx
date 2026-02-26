@@ -11,10 +11,7 @@ export const Header = () => {
           <div className="head_txt">
             <p>I am Rishant Maurya</p>
           </div>
-          <div className="sing_in_up">
-            <NavLink to="/login">SIGN IN</NavLink>
-            <NavLink to="/signup">SIGN UP</NavLink>
-          </div>
+         
         </div>
       </section>
 
