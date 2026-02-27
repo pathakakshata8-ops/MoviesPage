@@ -28,7 +28,7 @@ const App = () => {
 
         {
           path: "/about",
-          element: <About />,
+          element: <About  />,
         },
 
         {
